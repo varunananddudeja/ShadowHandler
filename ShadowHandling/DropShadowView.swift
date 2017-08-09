@@ -17,13 +17,7 @@ class DropShadowView: UIView {
     private var hasShadow: Bool = false
     
     @IBInspectable
-    var isTopView: Bool = false {
-        didSet {
-            if !isTopView {
-                addShadow(bool: true)
-            }
-        }
-    }
+    var isTopView: Bool = false
     
     fileprivate func addShadow(bool: Bool) {
         
@@ -56,7 +50,7 @@ extension DropShadowView: ShadowVisibilityHandler {
                 addShadow(bool: false)
             }
         } else {
-            if scrollView.contentOffset.y + scrollView.frame.height >= scrollView.contentSize.height && scrollView.contentSize.height > scrollView.frame.height {
+            if scrollView.contentOffset.y + scrollView.frame.height >= scrollView.contentSize.height {
                 addShadow(bool: false)
             } else {
                 addShadow(bool: true)

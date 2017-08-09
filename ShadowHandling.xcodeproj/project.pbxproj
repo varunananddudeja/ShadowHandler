@@ -12,6 +12,7 @@
 		B50C8E481F3A129300F6C5E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B50C8E461F3A129300F6C5E7 /* Main.storyboard */; };
 		B50C8E4A1F3A129300F6C5E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B50C8E491F3A129300F6C5E7 /* Assets.xcassets */; };
 		B50C8E4D1F3A129400F6C5E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B50C8E4B1F3A129400F6C5E7 /* LaunchScreen.storyboard */; };
+		B50C8E551F3A232C00F6C5E7 /* DropShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50C8E541F3A232C00F6C5E7 /* DropShadowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B50C8E491F3A129300F6C5E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B50C8E4C1F3A129400F6C5E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B50C8E4E1F3A129400F6C5E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B50C8E541F3A232C00F6C5E7 /* DropShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropShadowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				B50C8E491F3A129300F6C5E7 /* Assets.xcassets */,
 				B50C8E4B1F3A129400F6C5E7 /* LaunchScreen.storyboard */,
 				B50C8E4E1F3A129400F6C5E7 /* Info.plist */,
+				B50C8E541F3A232C00F6C5E7 /* DropShadowView.swift */,
 			);
 			path = ShadowHandling;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B50C8E551F3A232C00F6C5E7 /* DropShadowView.swift in Sources */,
 				B50C8E451F3A129300F6C5E7 /* ViewController.swift in Sources */,
 				B50C8E431F3A129300F6C5E7 /* AppDelegate.swift in Sources */,
 			);
